@@ -1,5 +1,6 @@
-
+# Converts a voltage read across the LDR to an estimation of incident laser power
 # Read in serial data, assign power value corresponding to fitted polynomial from calibration text file, display power in Tkinter GUI
+# Serial data is sent from ADC via I2C to Arduino and then intercepted through the serial monitor
 
 # Imports
 import serial
@@ -10,7 +11,7 @@ import numpy as np
 from numpy.polynomial import Polynomial
 
 
-transmittance = 0.6725 #transmittance of system between point where known power readings were taken and sensor
+transmittance = 0.6725 #transmittance of system between point where known power readings were taken - here, backfocus of objective - and sensor
 deg = 5 #polynomial fitting degree - be careful! too high a degree will overfit a polynomial and mis-estimate power
 
 # Serial port parameters
