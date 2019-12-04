@@ -4,9 +4,9 @@
 
 ### School of Physics and Astronomy, University of Glasgow, UK
 
-Phototoxocity, photodamage and photobleaching (the 3Ps) are the bane of in vivo light sheet fluorescence microscopy. Not only do they affect our science but they are incredibly difficult to report and correct for (see [1]). Here we represent our attempts to create a simple solution for measuring the light intensity at the sample, inside the chamber and underwater.
+Phototoxicity, photodamage and photobleaching (the 3Ps) are the bane of in vivo light sheet fluorescence microscopy. Not only do they affect our science but they are incredibly difficult to report and correct for (see [1]). Here we represent our attempts to create a simple solution for measuring the light intensity at the sample, inside the chamber and underwater.
 
-By using off-the-shelf components and the readily available and easy to use Arduino systems, we have created a power meter than can be used to provide an idea of light intensity at the sample’s position and under identical conditions. Use of such a tool could help unify reporting of laser parameters and light intensity in the field.
+By using off-the-shelf components and the readily available and easy to use Arduino systems, we have created a power meter that can be used to provide an idea of light intensity at the sample’s position and under identical conditions. Use of such a tool could help unify reporting of laser parameters and light intensity in the field.
 
 Here we present step-by-step instructions on how to build the device, provide details of the codes used and example results from our own light sheet microscope.
 
