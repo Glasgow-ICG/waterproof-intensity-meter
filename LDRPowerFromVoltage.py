@@ -1,10 +1,4 @@
 
-"""
-Created on Fri Aug  9 16:17:52 2019
-
-@author: freya
-"""
-# adapted from https://github.com/openhomeautomation/arduino-bluetooth-temperature/blob/master/sensor_gui.py
 # Read in serial data, assign power value corresponding to fitted polynomial from calibration text file, display power in Tkinter GUI
 
 # Imports
