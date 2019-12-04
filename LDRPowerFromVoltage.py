@@ -11,7 +11,8 @@ from numpy.polynomial import Polynomial
 
 
 transmittance = 0.6725 #transmittance of system between point where known power readings were taken and sensor
-deg = 5 #polynomial fitting degree - be careful! too many degrees will overfit a polynomial and misestimate power
+deg = 5 #polynomial fitting degree - be careful! too high a degree will overfit a polynomial and mis-estimate power
+
 # Serial port parameters
 serial_speed = 9600
 serial_port = 'COM5'
