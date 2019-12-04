@@ -2,6 +2,7 @@
 #include <Adafruit_ADS1015.h>
 
 //this is an edited version of the included example "singleended" sketch for ADS1115 to convert signal to voltage across LDR
+//https://github.com/adafruit/Adafruit_ADS1X15/blob/master/examples/singleended/singleended.pde
 Adafruit_ADS1115 ads;  /* Use this for the 16-bit version */
 //Adafruit_ADS1015 ads;     /* Use this for the 12-bit version */
 
