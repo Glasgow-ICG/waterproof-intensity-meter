@@ -1,5 +1,3 @@
-step-by-step TBC - available circa 5pm, inc. bill of materials and troubleshooting
-
 Components:
 - Arduino Uno or similar microcontroller
 - Light-dependent resistor of appropriate peak wavelength sensitivity (here, 550nm) for laser to be measured, soldered onto wire with header pins
