@@ -1,0 +1,8 @@
+Components:
+- Arduino Uno or similar microcontroller
+- Light-dependent resistor of appropriate peak wavelength sensitivity (here, 550nm) for laser to be measured, soldered onto wire with header pins
+- Breadboard and jumper wires
+- Resistor which allows best dynamic range for LDR used (here, 4.99kΩ, but will likely vary with LDR)
+- Adafruit 1115 16-bit ADC (with associated drivers installed into Arduino IDE)
+- Syringe (or equivalent sample holder in which to place the LDR at sample position)
+- Electrical tape for rudimentary waterproofing
